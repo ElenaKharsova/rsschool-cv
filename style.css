@@ -33,6 +33,7 @@ a {
 
 a:hover {
   cursor: pointer;
+  opacity: 60%;
 }
 
 a:focus, a:hover
@@ -105,6 +106,10 @@ a:focus, a:hover
   object-position: top;
   border: 2px solid white;
   border-radius: 50%;
+}
+
+.contacts__item {
+  margin-bottom: 5px;
 }
 
 .block-header {
