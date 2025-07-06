@@ -159,6 +159,13 @@ a:focus, a:hover
 .footer-wrap {
   margin: 0 auto;
   max-width: 1040px;
+  display: flex;  
+  justify-content: flex-end;
+  align-items: center;
+  gap: 80px;
+}
+
+.footer__links {
   display: flex;
   justify-content: flex-end;
   align-items: center;
