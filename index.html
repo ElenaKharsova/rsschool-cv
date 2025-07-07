@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio Elena Kharsova</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-wrap">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#profile" class="header__link">PROFILE</a>
+          </li>
+          <li class="header__item">
+            <a href="#experience" class="header__link">EXPERIENCE</a>
+          </li>
+          <li class="header__item">
+            <a href="#skills" class="header__link">SKILLS</a>
+          </li>
+          <li class="header__item">
+            <a href="#contacts" class="header__link">CONTACTS</a>
+          </li>
+          <li class="header__item">
+            <a href="#projects" class="header__link">PROJECTS</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main-wrap">
+      <div class="left-block">
+        <section class="avatar">
+            <div class="avatar-wrap">
+              <img src="./assets/img/photo.png" alt="photo" class="avatar-img">
+            </div>
+        </section>
+        <section id="contacts" class="contacts">
+          <h2 class="block-header">CONTACTS</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">+79052002831 (WhatsApp)</li>
+            <li class="contacts__item">elena.kharsova<wbr>@gmail.com</li>
+            <li class="contacts__item">linkedin.com/in/<wbr>elenakharsova</li>
+            <li class="contacts__item"> github.com/<wbr>ElenaKharsova</li>
+          </ul>
+        </section>
+        <section id="education" class="education">
+          <h2 class="block-header">EDUCATION</h2>
+          <div class="education__description">
+            <ul><li>2003-2009
+              <ul>
+              <li>SPBGMTU<br>
+                Applied Mathematics and
+                Mathematical Modeling</li>
+              </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="sertificates" class="sertificates">
+          <h2 class="block-header">SERTIFICATES</h2>
+          <ul class="sertificates__list">
+            <li class="sertificates__item"> 2024
+              <ul><li>Learning TypeScript (LinkedIn)</li></ul>
+            </li>
+            <li class="sertificates__item">2023
+              <ul>
+                <li> Level Up: CSS Layout (LinkedIn)</li>
+                <li>Level Up: JavaScript (LinkedIn)</li>
+              </ul>
+            </li>
+            <li class="sertificates__item">2022
+              <ul><li>JavaScript for beginners (Otus)</li></ul>
+            </li>
+          </ul>
+        </section>
+        <section id="languages" class="lenguages">
+          <h2 class="block-header">LANGUAGES</h2>
+          <ul class="lenguages__list">
+            <li class="lenguages__item">Russian (Fluent)</li>
+            <li class="lenguages__item">English (Intermediate)</li>
+            <li class="lenguages__item"> Spanish (Basic)</li>
+          </ul>
+        </section>
+      </div>
+      <div class="right-block">
+        <section class="about">
+          <div class="name">
+            <h1>ELENA KHARSOVA</h1>
+          </div>
+          <div class="profession">FRONTEND DEVELOPER</div>
+        </section>
+        <section id="profile" class="profile">
+          <h2 class="block-header">PROFILE</h2>
+          <div class="profile__description">With 5 years of commercial experience as a QA Fullstack Engineer, I am eager to develop and deepen my skills in frontend development.</div>
+        </section>
+        <section id="experience" class="experience">
+          <h2 class="block-header">WORK EXPERIENCE</h2>
+          <ul class="experience__list">
+            <li class="experience__place"><b>webimpact.it.com</b>
+              <ul>
+                <li>Frontend Developer</li>
+                <li>Developed a weather forecast application using Promises, DOM, API, and event delegation</li>
+                <li> Created a custom slider plugin</li>
+                <li>Designed a responsive landing page from a Figma layout</li>
+                <li>Studied technologies including TypeScript, GitHub Pages, Hooks, TDD, and Unit Testing</li>
+              </ul>
+            </li>
+            <li class="experience__place"><b>DINS</b>
+              <ul>
+                <li>QA Fullstack Engineer</li>
+                <li>Tested a high-load system</li>
+                <li>Completed frontend tasks using JavaScript</li>
+                <li>Developed UI End-to-End automated tests in JavaScript</li>
+                <li>Technologies used: React, Webpack, Yarn</li>
+              </ul>
+            </li>
+            <li class="experience__place"><b>Dnevnik.ru</b>
+              <ul>
+                <li>QA Engineer</li>
+                <li>Tested the statistics module for educational institutions</li>
+                <li>Developed API and UI automated tests in JavaScript</li>
+                <li>Technologies used: JavaScript, HTML</li>
+              </ul>
+            </li>
+            <li class="experience__place"><b>ZAO Favor-IT</b>
+              <ul>
+                <li>Testing engineer</li>
+                <li>Maintained HTML code and fixed bugs in JavaScript</li>
+                <li>Developed and maintained XML automated tests</li>
+                <li>Technologies used: Frontend (JavaScript, HTML, CSS)</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section id="skills" class="skills">
+          <h2 class="block-header">SKILLS</h2>
+          <ul>
+            <li><b>Frontend:</b> JavaScript, TypeScript, CSS, HTML</li>
+            <li><b>Tools and Technologies:</b> Git, GitHub, GitLab, IntelliJ IDEA, WebStorm,
+              VSCode, RubyMine, CI/CD, Jenkins, TeamCity, Stash, Jira, Confluence, Webpack</li>
+            <li><b>Methodologies:</b> Scrum, Agile</li>
+            <li><b>Additional Experience:</b> Oracle, DBeaver, PostgreSQL, SSMS (SQL Server
+              Management Studio), TestIT, TestRail, Swagger, Postman</li>
+          </ul>
+        </section>
+        <section id="code" class="code">
+          <h2 class="block-header">CODE EXAMPLE</h2>
+          <pre class="code-block"><code>async function getCurrentLocation() {
+  let locationTimeout;
+  const options = {
+    enableHighAccuracy: true,
+    maximumAge: 1000,
+    timeout: 3600,
+  };
+  const location = {};
+
+  if (navigator.geolocation) {
+    locationTimeout = setTimeout(geolocFail, 10000);
+    const position = await getCoordinates();
+    location.latitude = position.coords.latitude;
+    location.longitude = position.coords.longitude;
+  } else {
+    geolocFail();
+  }
+return location;
+};</code></pre>
+        </section>
+        <section id="projects" class="projects">
+          <h2 class="block-header">MY PROJECTS</h2>
+          <ul class="projects__list">
+            <li class="project item"><a class="projects__link" href="https://elenakharsova.github.io/Calculator-React/">The React Calculator</a></li>
+            <li class="project item"><a class="projects__link" href="https://elenakharsova.github.io/Weather/">The forecast</a></li>
+            <li class="project item"><a class="projects__link" href="https://elenakharsova.github.io/cargoDelivery/">Cargo delivery</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-wrap">
+      <div class="footer__rights">©Elena Kharsova 2025</div>
+      <div class="footer__links">
+        <section class="github">
+          <a href="https://github.com/ElenaKharsova" class="github__link">
+            <img src="./assets/img/GitHub.png" alt="github-ico" class="github__img">
+          </a>
+        </section>
+        <section class="rsschool">
+          <a href="https://rs.school/courses/javascript-ru" class="rsschool__link">
+            <img src="./assets/img/rs-school-logo.svg" alt="rsschool-ico" class="rsschool__img">
+          </a>
+        </section>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
