@@ -1,8 +1,8 @@
 # Elena Kharsova
-I've worked with high-load system with over 400,000 customers and millions of users worldwide on my last  working place. I have 5 years of approved commercial experience in the position of QA full stack engineer and strive to develop and deepen my skills in the frontend development. 
+I've worked with high-load system with over 400,000 customers and millions of users worldwide on my last  working place. I have 5 years of approved commercial experience in the position of QA full stack engineer and strive to develop and deepen my skills in the frontend development.
 
 ## CONTACT
- Email: elena.kharsova@gmail.com<br> 
+ Email: elena.kharsova@gmail.com<br>
  GitHub: [ElenaKharsova](https://github.com/ElenaKharsova)<br>
  Linkedin: [elenakharsova](https://linkedin.com/in/elenakharsova)<br>
 
@@ -38,7 +38,7 @@ I've worked with high-load system with over 400,000 customers and millions of us
 ## SERTIFICATES
  **2024** Learning TypeScript (LinkedIn)<br>
  **2023** Level Up: CSS Layout (LinkedIn)<br>
-      Level Up: JavaScript (LinkedIn)<br>
+  Level Up: JavaScript (LinkedIn)<br>
  **2022** JavaScript for beginners (Otus)
 
 ## LANGUAGES

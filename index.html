@@ -18,19 +18,13 @@
             <a href="#experience" class="header__link">EXPERIENCE</a>
           </li>
           <li class="header__item">
-            <a href="#skills" class="header__link">SKILLS</a>  
+            <a href="#skills" class="header__link">SKILLS</a>
           </li>
           <li class="header__item">
-            <a href="#contacts" class="header__link">CONTACTS</a>  
+            <a href="#contacts" class="header__link">CONTACTS</a>
           </li>
           <li class="header__item">
-            <a href="#education" class="header__link">EDUCATION</a>  
-          </li>
-          <li class="header__item">
-            <a href="#sertificates" class="header__link">SERTIFICATES</a>  
-          </li>
-          <li class="header__item">
-            <a href="#languages" class="header__link">LANGUAGES</a>  
+            <a href="#projects" class="header__link">PROJECTS</a>
           </li>
         </ul>
       </nav>
@@ -41,7 +35,7 @@
       <div class="left-block">
         <section class="avatar">
             <div class="avatar-wrap">
-              <img src="./assets/img/photo.png" alt="photo" class="avatar-img"> 
+              <img src="./assets/img/photo.png" alt="photo" class="avatar-img">
             </div>
         </section>
         <section id="contacts" class="contacts">
@@ -50,7 +44,7 @@
             <li class="contacts__item">+79052002831 (WhatsApp)</li>
             <li class="contacts__item">elena.kharsova<wbr>@gmail.com</li>
             <li class="contacts__item">linkedin.com/in/<wbr>elenakharsova</li>
-            <li class="contacts__item"> github.com/<wbr>ElenaKharsova</li> 
+            <li class="contacts__item"> github.com/<wbr>ElenaKharsova</li>
           </ul>
         </section>
         <section id="education" class="education">
@@ -62,7 +56,7 @@
                 Applied Mathematics and
                 Mathematical Modeling</li>
               </ul>
-              </li>  
+              </li>
             </ul>
           </div>
         </section>
@@ -76,7 +70,7 @@
               <ul>
                 <li> Level Up: CSS Layout (LinkedIn)</li>
                 <li>Level Up: JavaScript (LinkedIn)</li>
-              </ul> 
+              </ul>
             </li>
             <li class="sertificates__item">2022
               <ul><li>JavaScript for beginners (Otus)</li></ul>
@@ -152,7 +146,37 @@
             <li><b>Additional Experience:</b> Oracle, DBeaver, PostgreSQL, SSMS (SQL Server
               Management Studio), TestIT, TestRail, Swagger, Postman</li>
           </ul>
-        </section>      
+        </section>
+        <section id="code" class="code">
+          <h2 class="block-header">CODE EXAMPLE</h2>
+          <pre class="code-block"><code>async function getCurrentLocation() {
+  let locationTimeout;
+  const options = {
+    enableHighAccuracy: true,
+    maximumAge: 1000,
+    timeout: 3600,
+  };
+  const location = {};
+
+  if (navigator.geolocation) {
+    locationTimeout = setTimeout(geolocFail, 10000);
+    const position = await getCoordinates();
+    location.latitude = position.coords.latitude;
+    location.longitude = position.coords.longitude;
+  } else {
+    geolocFail();
+  }
+return location;
+};</code></pre>
+        </section>
+        <section id="projects" class="projects">
+          <h2 class="block-header">MY PROJECTS</h2>
+          <ul class="projects__list">
+            <li class="project item"><a class="projects__link" href="https://elenakharsova.github.io/Calculator-React/">The React Calculator</a></li>
+            <li class="project item"><a class="projects__link" href="https://elenakharsova.github.io/Weather/">The forecast</a></li>
+            <li class="project item"><a class="projects__link" href="https://elenakharsova.github.io/cargoDelivery/">Cargo delivery</a></li>
+          </ul>
+        </section>
       </div>
     </div>
   </main>
